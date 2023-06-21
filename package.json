@@ -1,0 +1,24 @@
+{
+  "name": "particle",
+  "version": "1.0.0",
+  "description": "Electron template for widget-like applications",
+  "scripts": {
+    "start": "vite build ./src/renderer --config vite.config.js && electron ./src/main",
+    "hello-world-example": "vite build ./examples/hello-world/src/renderer --config vite.config.js && electron ./examples/hello-world/src/main",
+    "ipc-example": "vite build ./examples/ipc/src/renderer --config vite.config.js && electron ./examples/ipc/src/main",
+    "update-pos-example": "vite build ./examples/update-pos/src/renderer --config vite.config.js && electron ./examples/update-pos/src/main",
+    "tray-example": "vite build ./examples/tray/src/renderer --config vite.config.js && electron ./examples/tray/src/main",
+    "table-example": "vite build ./examples/table/src/renderer --config vite.config.js && electron ./examples/table/src/main",
+    "tray-table-example": "vite build ./examples/tray-table/src/renderer --config vite.config.js && electron ./examples/tray-table/src/main"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "4.2.3",
+    "electron": "25.1.0",
+    "vite": "4.3.9"
+  },
+  "dependencies": {
+    "vue": "3.3.4"
+  }
+}
